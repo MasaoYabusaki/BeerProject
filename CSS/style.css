@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 
+.border {
+  border: 3px solid black;
+} */
+
+nav{
+  width: auto;
+  height: 100px;
+  background-color: rgb(97, 11, 11);
+  position: sticky;
+  top: 0px;
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.5)
+  );
+}
+
+.logo {
+  float: left;
+  margin: 15px 30px;
+}
+
+nav div img {
+  height: 60px;
+  width: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  float: right;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 25px;
+}
+
+nav ul a:link {
+  color: gold;
+}
+nav ul a:hover {
+  color: gold;
+  text-shadow: 5px 5px 6px gold ;
+}
+
+nav ul a:active {
+  color: gold;
+  background-color: rgb(97, 11, 11);
+  text-shadow: 5px 5px 10px black;
+}
+
+nav ul a li {
+  display: inline-block;
+  margin: 25px 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main {
+  width: auto;
+  height: 500px;
+  background-image: url(https://www.thedrinksbusiness.com/content/uploads/2020/03/iStock-1040303026-640x425.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h2{
+  color: burlywood;
+  writing-mode: horizontal-tb;
+  padding: 20px;
+  font-size: 30px;
+}
+
+aside {
+  width: 20%;
+  height: 1050px;
+  float: left;
+  border-right: 3px solid black;
+  background-image: url(https://media.istockphoto.com/photos/pattern-of-dates-on-white-calendar-page-backgroundcontact-and-and-picture-id1143133131?b=1&k=20&m=1143133131&s=612x612&w=0&h=OJ8XCIClRmODZ6xiEFIAfgteRuT-CWWPkkTJc28SkpI=);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  background-color: rgb(97, 11, 11);
+}
+
+aside h3 {
+  color: gold;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 20px;
+  text-shadow: 8px 6px 3px black;
+  letter-spacing: 5px;
+}
+
+aside li{
+  color: gold;
+  margin-left: 10px;
+}
+
+aside h4 {
+  color: gold;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 210px;
+  text-shadow: 8px 6px 3px black;
+  letter-spacing: 5px;
+}
+
+.events ul{
+  list-style-image: url(https://img.icons8.com/external-sbts2018-mixed-sbts2018/25/000000/external-events-social-media-basic-1-sbts2018-mixed-sbts2018.png);
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+.happyhour ul{
+  list-style-image: url(https://img.icons8.com/stickers/25/000000/beer.png);
+  margin-left: 30px;
+  margin-top: 30px;
+  
+}
+
+section{
+  width: auto;
+  height: 350px;
+  float:right
+}
+
+section, article {
+  width: 80%;
+  height: 350px;
+  float: right;
+  background-color: rgb(97, 11, 11);
+}
+
+.overlay{
+  margin-top: -800px;
+  margin-left: 110px;
+}
+
+article{
+  height: 400px;
+  /* background-image: url(https://avatars.mds.yandex.net/get-altay/2363990/2a0000017b5e75143c3e7542cf1926347fcf/XXL); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.beerPour video{
+  height: 850px;
+  width: 1118px;
+  object-fit: fill;
+  /* transform: rotateY(180deg); */
+}
+
+h5{
+  color: gold;
+  font-size: 70px;
+  letter-spacing: 10px;
+  text-shadow: 6px 6px 3px black;
+}
+
+.menu{
+  color: gold;
+  margin-top: 50px;
+  font-size: 25px;
+  line-height: 2.5;
+  letter-spacing: 5px;
+}
+
+h6{
+  text-align: center;
+  color: gold;
+  font-size: 50px;
+  letter-spacing: 7px;
+  margin: 10px;
+}
+
+article iframe{
+  width: 1118px;
+  height: 200px;
+  text-align: center;
+  margin-top: 41px;
+}
+
+
+footer {
+  width: auto;
+  height: 200px;
+  clear: both;
+  border-top: 3px solid black;
+  background-color: rgb(97, 11, 11);
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.3)
+  );
+  color: gold;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer h6 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+#body-container{
+  width: 100vw;
+}
+
+.icons{
+  width: auto;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  letter-spacing: 7px;
+}
+
+.fa-brands:hover{
+  color: aliceblue;
+  text-shadow: 2px 2px 5px gold;
+}
+
+.fa-brands:link{
+  color: gold;
+}
+
+.icons a{
+  text-decoration: none;
+  color: gold;
+}
